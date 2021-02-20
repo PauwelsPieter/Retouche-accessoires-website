@@ -1,1 +1,5 @@
-console.log('JS is working!');
+$(function(){
+    $('.carousel').carousel({
+      interval: 5000
+    })
+});
