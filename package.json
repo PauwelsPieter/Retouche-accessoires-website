@@ -1,0 +1,28 @@
+{
+  "name": "retouche-accessoires-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PauwelsPieter/Retouche-accessoires-website.git"
+  },
+  "keywords": [
+    "retouche",
+    "accessoires",
+    "Jolanda",
+    "Hamal"
+  ],
+  "author": "Pieter Pauwels & Jorden Bijloos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PauwelsPieter/Retouche-accessoires-website/issues"
+  },
+  "homepage": "https://github.com/PauwelsPieter/Retouche-accessoires-website#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
+}
