@@ -36,7 +36,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
 
     &:hover {
-        color: $pink !important;
         text-decoration: underline;
     }
 }
@@ -45,10 +44,26 @@ h1, h2, h3, h4, h5, h6 {
     transition: height 1s ease;
 }
 
-@media (max-width: 992px) {
+@media (min-width: 1016px) and (max-width: 1050px) {
+    .navbar-nav a {
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1015px) {
+    .navbar-nav a {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 991px) {
     .navbar-collapse {
         background-color: $white;
         padding-left: 16px;
         padding-right: 16px;
+    }
+
+    .navbar-nav a:hover {
+        color: $pink !important;
     }
 }
