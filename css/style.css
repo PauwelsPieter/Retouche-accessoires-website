@@ -9936,8 +9936,51 @@ h3 {
   box-sizing: border-box;
 }
 
-body {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Alex Brush", cursive;
+}
+
+.w-15 {
+  width: 15% !important;
+}
+
+.navbar {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 3px;
+}
+.navbar button {
+  margin-right: 16px;
+}
+.navbar a {
+  margin-left: 16px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-nav a {
+  font-weight: 600;
+}
+.navbar-nav a:hover {
+  color: #E975B0 !important;
+  text-decoration: underline;
+}
+
+#navbarNavAltMarkup {
+  transition: height 1s ease;
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background-color: #fff;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+.bg-pink {
+  background-color: #E975B0 !important;
 }
 
 /*# sourceMappingURL=style.css.map */

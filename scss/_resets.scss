@@ -2,8 +2,53 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  }
+}
 
-  body {
-      font-family: $font-family-alex-brush;
-  }
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-family-alex-brush;
+}
+
+.w-15 {
+    width: 15% !important;
+}
+
+
+//Nav
+.navbar {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 3px;
+
+    button {
+        margin-right: 16px;
+    }
+
+    a {
+        margin-left: 16px;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba($color: $black, $alpha: 0.7);
+}
+
+.navbar-nav a {
+    font-weight: 600;
+
+    &:hover {
+        color: $pink !important;
+        text-decoration: underline;
+    }
+}
+
+#navbarNavAltMarkup {
+    transition: height 1s ease;
+}
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        background-color: $white;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
