@@ -1,3 +1,9 @@
 .bg-pink {
     background-color: $pink !important;
 }
+
+.line {
+    @include saw-tooth(15px, #fff);
+    height: 30px;
+    background-color: $pink;
+}
