@@ -9971,17 +9971,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: height 1s ease;
 }
 
-@media (min-width: 1016px) and (max-width: 1050px) {
-  .navbar-nav a {
-    font-size: 0.9em;
-  }
+.navbar .container-fluid .container-fluid, .navbar .container-sm .container-fluid, .navbar .container-md .container-fluid, .navbar .container-lg .container-fluid, .navbar .container-xl .container-fluid, .navbar .container-fluid .container-sm, .navbar .container-sm .container-sm, .navbar .container-md .container-sm, .navbar .container-lg .container-sm, .navbar .container-xl .container-sm, .navbar .container-fluid .container-md, .navbar .container-sm .container-md, .navbar .container-md .container-md, .navbar .container-lg .container-md, .navbar .container-xl .container-md, .navbar .container-fluid .container-lg, .navbar .container-sm .container-lg, .navbar .container-md .container-lg, .navbar .container-lg .container-lg, .navbar .container-xl .container-lg, .navbar .container-fluid .container-xl, .navbar .container-sm .container-xl, .navbar .container-md .container-xl, .navbar .container-lg .container-xl, .navbar .container-xl .container-xl {
+  flex-wrap: nowrap;
 }
-@media (min-width: 992px) and (max-width: 1015px) {
-  .navbar-nav a {
-    font-size: 0.8em;
-  }
-}
-@media (max-width: 991px) {
+
+@media (max-width: 1049px) {
   .navbar-collapse {
     background-color: #fff;
     padding-left: 16px;
@@ -9990,6 +9984,11 @@ h1, h2, h3, h4, h5, h6 {
 
   .navbar-nav a:hover {
     color: #E975B0 !important;
+  }
+}
+@media (max-width: 610px) {
+  nav h3 {
+    font-size: 5vw;
   }
 }
 .carousel-indicators li {
