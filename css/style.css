@@ -9999,4 +9999,13 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #E975B0 !important;
 }
 
+.line {
+  background-image: linear-gradient(135deg, #fff 50%, transparent 50%), linear-gradient(225deg, #fff 50%, transparent 50%), linear-gradient(45deg, #fff 50%, transparent 50%), linear-gradient(-45deg, #fff 50%, transparent 50%), linear-gradient(135deg, #fff 50%, transparent 50%), linear-gradient(45deg, #fff 50%, transparent 50%), linear-gradient(-135deg, #fff 50%, transparent 50%), linear-gradient(-45deg, #fff 50%, transparent 50%);
+  background-position: top left, top left, bottom left, bottom left, top left, top left, top right, top right;
+  background-size: 15px 15px;
+  background-repeat: repeat-x, repeat-x, repeat-x, repeat-x, repeat-y, repeat-y, repeat-y, repeat-y;
+  height: 30px;
+  background-color: #E975B0;
+}
+
 /*# sourceMappingURL=style.css.map */
